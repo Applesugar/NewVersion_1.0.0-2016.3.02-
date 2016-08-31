@@ -1,0 +1,21 @@
+﻿<Window x:Class="NewVersion_1._0._0.Com_Manager"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="串口管理" Height="500" Width="500" ResizeMode="NoResize">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="355" Margin="10,10,0,0" TextWrapping="Wrap" Text="串口列表" FontSize="20" VerticalAlignment="Top" Width="238"/>
+        <ListBox x:Name="ComList" HorizontalAlignment="Left" Height="327" Margin="10,38,0,0" VerticalAlignment="Top" Width="238" Initialized="ListBox_Initialized" Loaded="ComList_Loaded"/>
+        <Button x:Name="bt_Refresh_ComList" Content="串口刷新" HorizontalAlignment="Left" Margin="73,395,0,0" VerticalAlignment="Top" Width="118" Height="43" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" Click="bt_Refresh_ComList_Click"/>
+        <TextBox HorizontalAlignment="Left" Height="282" Margin="276,10,0,0" TextWrapping="Wrap" Text="串口参数设置" FontSize="20" VerticalAlignment="Top" Width="187"/>
+        <Label Content="波特率:" FontSize="14" HorizontalAlignment="Left" Margin="288,52,0,0" VerticalAlignment="Top" Height="26" Width="79"/>
+        <Label Content="数据位：" FontSize="14" HorizontalAlignment="Left" Margin="288,108,0,0" VerticalAlignment="Top" Height="26" Width="79"/>
+        <Label Content="停止位：" FontSize="14" HorizontalAlignment="Left" Margin="288,168,0,0" VerticalAlignment="Top" Height="26" Width="79"/>
+        <Label Content="校验位：" FontSize="14" HorizontalAlignment="Left" Margin="288,232,0,0" VerticalAlignment="Top" Height="26" Width="79"/>
+        <TextBox x:Name="BaundRate" HorizontalAlignment="Left" Height="23" Margin="364,54,0,0" TextWrapping="Wrap" Text="115200" VerticalAlignment="Top" Width="79" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="BitsNum" HorizontalAlignment="Left" Height="23" Margin="364,110,0,0" TextWrapping="Wrap" Text="8" VerticalAlignment="Top" Width="79" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="StopBit" HorizontalAlignment="Left" Height="23" Margin="364,172,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="79" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="CheckNum" HorizontalAlignment="Left" Height="23" Margin="364,234,0,0" TextWrapping="Wrap" Text="N" VerticalAlignment="Top" Width="79" VerticalContentAlignment="Center"/>
+        <Button x:Name="bt_ClearComList" Content="清除所有设置的串口" HorizontalAlignment="Left" Margin="308,314,0,0" VerticalAlignment="Top" Width="118" Height="43" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" Click="bt_ClearComList_Click"/>
+        <Button x:Name="bt_UseComList" Content="应用所有设置的串口" HorizontalAlignment="Left" Margin="308,395,0,0" VerticalAlignment="Top" Width="118" Height="43" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" Click="bt_UseComList_Click"/>
+    </Grid>
+</Window>

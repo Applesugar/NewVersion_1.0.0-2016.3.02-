@@ -1,0 +1,86 @@
+﻿<Window x:Class="NewVersion_1._0._0.SelectTarget"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="任务选择" Height="600" Width="320" ResizeMode="NoResize">
+    <Grid>
+        <ListBox HorizontalAlignment="Left" Height="558" VerticalAlignment="Top" Width="300" Margin="2,2,0,0" ScrollViewer.CanContentScroll="True">
+            <ListBoxItem HorizontalAlignment="Left" VerticalAlignment="Top" Height="93" Width="275">
+                <CheckBox Name="CheckPicture_1" VerticalContentAlignment="Center" Checked="CheckPicture_1_Checked">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Name="CheckPicture1" Loaded="CheckPicture1_Loaded"></Image>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+            <ListBoxItem HorizontalAlignment="Left" VerticalAlignment="Top" Height="93" Width="275">
+                <CheckBox Name="CheckPicture_2" VerticalContentAlignment ="Center" Checked="CheckPicture_2_Checked">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Name="CheckPicture2" Loaded="CheckPicture2_Loaded"></Image>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+            <ListBoxItem HorizontalAlignment="Left" VerticalAlignment="Top" Height="93" Width="275">
+                <CheckBox Name="CheckPicture_3" VerticalContentAlignment="Center" Checked="CheckPicture_3_Checked">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Name="CheckPicture3" Loaded="CheckPicture3_Loaded"></Image>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+            <ListBoxItem HorizontalAlignment="Left" VerticalAlignment="Top" Height="93" Width="275">
+                <CheckBox Name="CheckPicture_4" VerticalContentAlignment ="Center" Checked="CheckPicture_4_Checked">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Name="CheckPicture4" Loaded="CheckPicture4_Loaded"></Image>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+            <ListBoxItem HorizontalAlignment="Left" VerticalAlignment="Top" Height="93" Width="275">
+                <CheckBox Name="CheckPicture_5" VerticalContentAlignment="Center" Checked="CheckPicture_5_Checked">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Name="CheckPicture5" Loaded="CheckPicture5_Loaded"></Image>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+            <ListBoxItem HorizontalAlignment="Left" VerticalAlignment="Top" Height="93" Width="275">
+                <CheckBox Name="CheckPicture_6" VerticalContentAlignment ="Center" Checked="CheckPicture_6_Checked">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Name="CheckPicture6" Loaded="CheckPicture6_Loaded"></Image>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+            <ListBoxItem HorizontalAlignment="Left" VerticalAlignment="Top" Height="93" Width="275">
+                <CheckBox Name="CheckPicture_7" VerticalContentAlignment="Center" Checked="CheckPicture_7_Checked">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Name="CheckPicture7" Loaded="CheckPicture7_Loaded"></Image>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+            <ListBoxItem HorizontalAlignment="Left" VerticalAlignment="Top" Height="93" Width="275">
+                <CheckBox Name="CheckPicture_8" VerticalContentAlignment ="Center" Checked="CheckPicture_8_Checked">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Name="CheckPicture8" Loaded="CheckPicture8_Loaded"></Image>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+            <ListBoxItem HorizontalAlignment="Left" VerticalAlignment="Top" Height="93" Width="275">
+                <CheckBox Name="CheckPicture_9" VerticalContentAlignment ="Center" Checked="CheckPicture_9_Checked">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Name="CheckPicture9" Loaded="CheckPicture9_Loaded"></Image>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+            <ListBoxItem HorizontalAlignment="Left" VerticalAlignment="Top" Height="93" Width="275">
+                <CheckBox Name="CheckPicture_10" VerticalContentAlignment="Center" Checked="CheckPicture_10_Checked">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Name="CheckPicture10" Loaded="CheckPicture10_Loaded"></Image>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+            <ListBoxItem HorizontalAlignment="Left" VerticalAlignment="Top" Height="93" Width="275">
+                <CheckBox Name="CheckPicture_11" VerticalContentAlignment ="Center" Checked="CheckPicture_11_Checked">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Name="CheckPicture11" Loaded="CheckPicture11_Loaded"></Image>
+                    </StackPanel>
+                </CheckBox>
+            </ListBoxItem>
+        </ListBox>
+    </Grid>
+</Window>
